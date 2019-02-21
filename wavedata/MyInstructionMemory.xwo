@@ -1,0 +1,13 @@
+{
+	'objects' => [
+		{
+			'name' => '/MyInstructionMemory/Instruction Memory/Out1'
+		},
+		{
+			'name' => '/MyInstructionMemory/Clock'
+		},
+		{
+			'name' => '/MyInstructionMemory/Counter/Out1'
+		},
+	],
+}
