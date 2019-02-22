@@ -1,0 +1,7 @@
+{
+	'selections' => [
+		{
+			'name' => '/MyDataMemory/memRead/Out1'
+		},
+	],
+}
