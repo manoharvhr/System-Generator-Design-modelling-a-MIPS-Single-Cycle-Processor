@@ -1,7 +1,4 @@
 {
 	'selections' => [
-		{
-			'name' => '/MyInstructionMemory/Instruction Memory/Out1'
-		},
 	],
 }

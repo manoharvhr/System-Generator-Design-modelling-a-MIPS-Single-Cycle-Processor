@@ -1,0 +1,40 @@
+{
+	'objects' => [
+		{
+			'name' => '/MyControl/Gateway Out11/Out1'
+		},
+		{
+			'name' => '/MyControl/Gateway Out10/Out1'
+		},
+		{
+			'name' => '/MyControl/Clock'
+		},
+		{
+			'name' => '/MyControl/Instruction Memory/Out1'
+		},
+		{
+			'name' => '/MyControl/ALU Control/Out1'
+		},
+		{
+			'name' => '/MyControl/Gateway Out6/Out1'
+		},
+		{
+			'name' => '/MyControl/Gateway Out8/Out1'
+		},
+		{
+			'name' => '/MyControl/Gateway Out3/Out1'
+		},
+		{
+			'name' => '/MyControl/Gateway Out5/Out1'
+		},
+		{
+			'name' => '/MyControl/Gateway Out7/Out1'
+		},
+		{
+			'name' => '/MyControl/Gateway Out9/Out1'
+		},
+		{
+			'name' => '/MyControl/Gateway Out4/Out1'
+		},
+	],
+}

@@ -15,22 +15,22 @@ begin
         subtype word is std_logic_vector(31 downto 0);
         type mem_array is array(natural range <>) of word;
         variable memory: mem_array(0 to 16) :=
-        (X"20080005", -- addi $t0, $zero, 5 I
-        X"20090007", -- addi I
-        X"00005020", -- add R
-        X"3c0b1000", -- lui I
-        X"200c0001", -- addi I
-        X"00006820", -- add R
-        X"ad6a0000", -- sw I
-        X"8d6a0000", -- lw I
-        X"014b6824", -- and R
-        X"014b6825", -- or R
-        X"01485020", -- add R
-        X"012c4822", -- sub R
-        X"216b0004", -- addi I
-        X"ad6a0000", -- sw I
-        X"012c682a", -- slt R
-        X"11a0fff8", -- beq I
+        (X"20080005", -- addi $t0, $zero, 5
+        X"20090007", -- addi
+        X"00005020", -- add
+        X"3c0b1000", -- lui
+        X"200c0001", -- addi
+        X"00006820", -- add
+        X"ad6a0000", -- 
+        X"8d6a0000",
+        X"014b6824",
+        X"014b6825",
+        X"01485020",
+        X"012c4822",
+        X"216b0004",
+        X"ad6a0000",
+        X"012c682a",
+        X"11a0fff8",
         X"00000000"); -- empty instruction
         variable word_addr : natural;
     begin
