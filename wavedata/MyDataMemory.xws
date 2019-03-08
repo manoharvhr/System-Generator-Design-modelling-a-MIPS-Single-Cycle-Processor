@@ -1,7 +1,7 @@
 {
 	'selections' => [
 		{
-			'name' => '/MyDataMemory/memRead/Out1'
+			'name' => '/MyDataMemory/Data Memory/Out1'
 		},
 	],
 }

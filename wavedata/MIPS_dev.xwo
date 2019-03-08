@@ -1,0 +1,34 @@
+{
+	'objects' => [
+		{
+			'name' => '/MIPS_dev/Instruction Memory/Out1'
+		},
+		{
+			'name' => '/MIPS_dev/Register File/Out2'
+		},
+		{
+			'name' => '/MIPS_dev/Mux2/Out1'
+		},
+		{
+			'name' => '/MIPS_dev/My Clock/Out1'
+		},
+		{
+			'name' => '/MIPS_dev/Mux1/Out1'
+		},
+		{
+			'name' => '/MIPS_dev/Convert/Out1'
+		},
+		{
+			'name' => '/MIPS_dev/Clock'
+		},
+		{
+			'name' => '/MIPS_dev/Register File/Out1'
+		},
+		{
+			'name' => '/MIPS_dev/ALU/Out1'
+		},
+		{
+			'name' => '/MIPS_dev/Control Unit/Out7'
+		},
+	],
+}

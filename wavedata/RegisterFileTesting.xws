@@ -1,0 +1,7 @@
+{
+	'selections' => [
+		{
+			'name' => '/RegisterFileTesting/Gateway Out2/Out1'
+		},
+	],
+}

@@ -1,0 +1,28 @@
+{
+	'objects' => [
+		{
+			'name' => '/RegisterFileTesting/Gateway Out3/Out1'
+		},
+		{
+			'name' => '/RegisterFileTesting/Instruction Memory/Out1'
+		},
+		{
+			'name' => '/RegisterFileTesting/Register File/Out1'
+		},
+		{
+			'name' => '/RegisterFileTesting/Register File/Out2'
+		},
+		{
+			'name' => '/RegisterFileTesting/Clock'
+		},
+		{
+			'name' => '/RegisterFileTesting/Gateway Out2/Out1'
+		},
+		{
+			'name' => '/RegisterFileTesting/Convert/Out1'
+		},
+		{
+			'name' => '/RegisterFileTesting/My Clock/Out1'
+		},
+	],
+}

@@ -1,7 +1,7 @@
 {
 	'selections' => [
 		{
-			'name' => '/MyControl/Gateway Out10/Out1'
+			'name' => '/MyControl/Convert/Out1'
 		},
 	],
 }

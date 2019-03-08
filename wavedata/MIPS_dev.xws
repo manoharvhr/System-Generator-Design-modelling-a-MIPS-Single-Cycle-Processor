@@ -1,0 +1,7 @@
+{
+	'selections' => [
+		{
+			'name' => '/MIPS_dev/Control Unit/Out7'
+		},
+	],
+}

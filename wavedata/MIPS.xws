@@ -1,7 +1,7 @@
 {
 	'selections' => [
 		{
-			'name' => '/MIPS/Control Unit/Out1'
+			'name' => '/MIPS/Convert/Out1'
 		},
 	],
 }

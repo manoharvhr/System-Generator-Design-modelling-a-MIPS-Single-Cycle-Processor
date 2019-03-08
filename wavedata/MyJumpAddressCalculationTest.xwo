@@ -1,0 +1,16 @@
+{
+	'objects' => [
+		{
+			'name' => '/MyJumpAddressCalculationTest/Instruction Memory/Out1'
+		},
+		{
+			'name' => '/MyJumpAddressCalculationTest/Gateway Out/Out1'
+		},
+		{
+			'name' => '/MyJumpAddressCalculationTest/Clock'
+		},
+		{
+			'name' => '/MyJumpAddressCalculationTest/PC/Out1'
+		},
+	],
+}
