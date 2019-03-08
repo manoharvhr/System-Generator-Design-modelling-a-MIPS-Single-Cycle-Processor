@@ -17,7 +17,7 @@ end regfile;
 
 architecture Behavioral of regfile is
 type registerFile is array(0 to 31) of std_logic_vector(31 downto 0);
-signal registers : registerFile;
+signal registers : registerFile := (others=>(others=>'0'));
 begin
     data1 <= registers(to_integer(unsigned(readreg1)));
     data2 <= registers(to_integer(unsigned(readreg2)));
