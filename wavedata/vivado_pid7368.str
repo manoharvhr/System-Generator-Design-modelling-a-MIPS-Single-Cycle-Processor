@@ -1,0 +1,118 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 7368
+License: Customer
+
+Current time: 	Tue Mar 12 15:15:22 GST 2019
+Time zone: 	Gulf Standard Time (Asia/Muscat)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 33 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	manoh
+User home directory: C:/Users/manoh
+User working directory: C:/432/ecte432-project-1/wavedata
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/manoh/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/manoh/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/manoh/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	
+Vivado journal file location: 	
+Engine tmp dir: 	C:/432/ecte432-project-1/.Xil/Vivado-7368-ManoharVohra-PC
+
+Xilinx Environment Variables
+----------------------------
+RDI_SDK_PLATFORM: win64.o
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@xilinx.uowdubai.ac.ae;C:/Xilinx/Vivado/2018.2/data/sysgen/hwcosim_compiler/pp_ethernet
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	126 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 585 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 52 MB (+51820kb) [00:00:10]
+// [Engine Memory]: 572 MB (+448010kb) [00:00:10]
+// TclEventType: START_PROGRESS_DIALOG
+// Tcl Message: source C:/Xilinx/Vivado/2018.2/scripts/sysgen/tcl/SgWaveformServer.tcl -notrace 
+// TclEventType: START_PROGRESS_DIALOG
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: LOAD_FEATURE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 36 MB. Current time: 3/12/19 3:15:32 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 39 MB. Current time: 3/12/19 3:15:32 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 36 MB. Current time: 3/12/19 3:15:48 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 35 MB. Current time: 3/12/19 3:15:49 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 39 MB. Current time: 3/12/19 3:15:56 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 36 MB. Current time: 3/12/19 3:15:56 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 36 MB. Current time: 3/12/19 3:15:56 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 36 MB. Current time: 3/12/19 3:15:56 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 35 MB. Current time: 3/12/19 3:15:56 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 35 MB. Current time: 3/12/19 3:15:57 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 35 MB. Current time: 3/12/19 3:15:57 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 35 MB. Current time: 3/12/19 3:15:57 PM GST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 487, 203); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 585 MB. GUI used memory: 36 MB. Current time: 3/12/19 3:16:17 PM GST
+// Elapsed time: 18 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 732, 240); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE

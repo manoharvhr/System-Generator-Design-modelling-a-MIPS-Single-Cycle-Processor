@@ -1,7 +1,7 @@
 {
 	'selections' => [
 		{
-			'name' => '/MIPS/Convert/Out1'
+			'name' => '/MIPS/Register File/Out2'
 		},
 	],
 }
