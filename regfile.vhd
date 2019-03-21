@@ -16,15 +16,15 @@ port (
 end regfile;
 
 architecture Behavioral of regfile is
-type registerFile is array(0 to 31) of std_logic_vector(31 downto 0);
-signal registers : registerFile := (others=>(others=>'0'));
+type registerFile is array(0 to 31) of std_logic_vector(31 downto 0); -- Defining an array type of size 32, where each element is 32 bits.
+signal registers : registerFile := (others=>(others=>'0')); -- Creating an instance of the new datatype and setting all values to 0, which is important else signals being read are undefined.
 begin
-    data1 <= registers(to_integer(unsigned(readreg1)));
+    data1 <= registers(to_integer(unsigned(readreg1))); -- Read data from the register file.
     data2 <= registers(to_integer(unsigned(readreg2)));
-    process (clk) is
+    process (clk) is -- The following process will be executed only when the clk signal value changes.
     begin
-        if rising_edge(clk) then    
-            if regwrite = '1' then
+        if rising_edge(clk) then -- On the rising edge of the clock
+            if regwrite = '1' then -- If it is the rising edge, AND regwrite signal is HIGH, go ahead and write the value into the register.
                 registers(to_integer(unsigned(writereg))) <= writedata;
             end if;
         end if;

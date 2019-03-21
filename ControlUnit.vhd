@@ -20,11 +20,10 @@ end ControlUnit;
 
 architecture behavior of ControlUnit is
 begin
-    ctrl_unit: process(opcode)
+    ctrl_unit: process(opcode) -- The control unit will provide new signals each time the opcode has changed (which indeed is every clock cycle if needed).
     begin
-        case opcode is 
-        
-            when "000000" => -- R-Type
+        case opcode is -- The following case statement is simply providing control lines based on the opcode. 
+            when "000000" => -- All R-Type have common control lines and the their ALU function is specified in the instruction handled by the ALU Control Unit.
                 regDst <= '1';
                 aluSrc <= '0';
                 memToReg <= '0';
@@ -33,7 +32,7 @@ begin
                 memWrite <= '0';
                 branch <= '0';
                 jump <= '0';
-                aluOp <= "10"; -- See IR[5:0]
+                aluOp <= "10"; -- See IR[5:0] which is funct
             when "001000" => -- I-Type addi
                 regDst <= '0';
                 jump <= '0';
@@ -45,9 +44,7 @@ begin
                 aluSrc <= '1';
                 regWrite <= '1';
             when "101011" => -- I-Type sw
-                --regDst <= '0';
                 aluSrc <= '1';
-                --memToReg <= '1';
                 regWrite <= '0';
                 memRead <= '0';
                 memWrite <= '1';
@@ -65,9 +62,7 @@ begin
                 jump <= '0';
                 aluOp <= "00"; -- ADD                
             when "000100" => -- I-Type beq
-                --regDst <= '0';
                 aluSrc <= '0';
-                --memToReg <= '1';
                 regWrite <= '0';
                 memRead <= '0';
                 memWrite <= '0';
@@ -85,7 +80,6 @@ begin
                 jump <= '0';
                 aluOp <= "11"; -- SHIFT LEFT BY 16    
             when others => null;
-                
         end case;
     end process ctrl_unit;
 end architecture behavior;

@@ -1,16 +1,19 @@
 {
 	'objects' => [
 		{
-			'name' => '/MIPS/Control Unit/Out7'
-		},
-		{
-			'name' => '/MIPS/Clock'
+			'name' => '/MIPS/My Clock/Out1'
 		},
 		{
 			'name' => '/MIPS/Instruction Memory/Out1'
 		},
 		{
 			'name' => '/MIPS/Register File/Out2'
+		},
+		{
+			'name' => '/MIPS/Signed Ouput/Out1'
+		},
+		{
+			'name' => '/MIPS/Control Unit/Out7'
 		},
 	],
 }

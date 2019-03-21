@@ -13,9 +13,9 @@ end ALUControl;
 
 architecture behavior of ALUControl is
 begin
-    aluctrl: process(funct, aluOp)
+    aluctrl: process(funct, aluOp) -- ALU Control will take actions whenever there is a change in funct or aluOp
     begin
-        case aluOp is
+        case aluOp is -- Based on operations, the ALU code is driven.
         when "00" => -- ADD
             alucntrl <= "0010";
         when "01" => -- SUB
