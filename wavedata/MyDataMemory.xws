@@ -1,7 +1,4 @@
 {
 	'selections' => [
-		{
-			'name' => '/MyDataMemory/Data Memory/Out1'
-		},
 	],
 }

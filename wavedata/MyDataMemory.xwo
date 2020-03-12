@@ -1,22 +1,19 @@
 {
 	'objects' => [
 		{
-			'name' => '/MyDataMemory/addr/Out1'
-		},
-		{
-			'name' => '/MyDataMemory/Data Memory/Out1'
-		},
-		{
 			'name' => '/MyDataMemory/memWrite/Out1'
 		},
 		{
-			'name' => '/MyDataMemory/writeData/Out1'
-		},
-		{
-			'name' => '/MyDataMemory/clock/Out1'
-		},
-		{
 			'name' => '/MyDataMemory/memRead/Out1'
+		},
+		{
+			'name' => '/MyDataMemory/addr/Out1'
+		},
+		{
+			'name' => '/MyDataMemory/Black Box/Out1'
+		},
+		{
+			'name' => '/MyDataMemory/writeData/Out1'
 		},
 	],
 }

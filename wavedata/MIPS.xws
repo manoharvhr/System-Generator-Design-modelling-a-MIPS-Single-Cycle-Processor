@@ -1,7 +1,7 @@
 {
 	'selections' => [
 		{
-			'name' => '/MIPS/Signed Ouput/Out1'
+			'name' => '/MIPS/Instruction Memory/Out1'
 		},
 	],
 }

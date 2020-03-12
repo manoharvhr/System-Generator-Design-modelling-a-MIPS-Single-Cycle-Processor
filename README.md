@@ -25,4 +25,4 @@ This repository consists of a System Generator Design modelling a MIPS Single-Cy
 4) ALUControl_config.m: Configuration file to use as a BlackBox.
 5) MyControl.slx: For dummy values of the Program Counter (PC), actual Instruction Memory is used to test both, the Control Unit and the ALU Control. Includes a tested mechanism for bit-slicing of the 32-bit instruction.
 ## MIPS:
-1) The MIPS.slx file will contain the final design which is not yet complete.
+1) The MIPS.slx file contains the final design.
